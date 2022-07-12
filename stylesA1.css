@@ -73,6 +73,33 @@ ul {
     margin-bottom: 15px;
 }
 
+.backgroundimage{
+    background-color: aquamarine;
+    background-image: url('img/pink-arrows.png');
+    background-repeat:repeat;
+
+}
+
+#leafbackground {
+    border: 2.5px solid aquamarine;
+    background: #94B0DA url('img/leaf.png') repeat-x left;
+    color:#505A5B;
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+    padding:0%;
+}
+
+#parabackground {
+    background-color:rgb(202, 230, 255);
+}
+
+div {
+    border: 3px solid #EF798A;
+    padding: 5px;
+    width: 25cm;
+}
+
 table{
     font-family: 'Roboto', sans-serif; 
     border: 1px solid #c5d6d8;
