@@ -76,7 +76,8 @@ ul {
 }
 
 #leafbackground {
-    border: 2.5px solid aquamarine;
+    /* border: 2.5px solid aquamarine; */
+    box-shadow: 10px 10px 0 -1px aquamarine;
     background: #94B0DA url('img/leaf.png') repeat-x left;
     color:#505A5B;
     font-weight: bolder;
@@ -89,8 +90,8 @@ ul {
     background-color:rgb(202, 230, 255);
 }
 
-div {
-    border: 3px solid #EF798A;
+div { 
+    /* border: 3px solid #EF798A; */
     padding: 5px;
     width: 25cm;
 }
@@ -156,10 +157,17 @@ img {
     border: 0.5px solid #e4566b;
     background-color: antiquewhite;
 }
-
-/* .hello p strong { 
-    border: 0.5px solid #e4566b;
+.pinkStrong p strong { 
+    border: 3px solid #e4566b;
     text-decoration: underline;
-}' 
-*/
+}
+
+#inverted {
+    border:10px solid antiquewhite;
+    padding:20px;
+    position:relative;
+    left: -10px;
+    background-image: url('img/pink-arrows.png');
+}
+
 
