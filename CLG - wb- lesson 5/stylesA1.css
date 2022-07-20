@@ -1,0 +1,165 @@
+h1 {
+    color:#EF798A;
+    text-align: center;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: 'Fascinate', cursive;
+    font-size: 80px;
+}
+h2{
+    border-top: 2px dotted #EF798A;
+    border-right: 2px dotted palegoldenrod;
+    border-bottom: 2px dotted #EF798A;
+    border-left-color: 2px dotted palegoldenrod;
+    color:#94B0DA;
+    background-color: aliceblue;
+    font-weight:bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h3 {
+    color:#505A5B;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    text-decoration: underline;
+    font-family: 'Righteous', cursive;
+
+}
+p {
+    /* color: #343f3e; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a { 
+    text-decoration:none;
+    font-size:medium;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+a:hover { 
+    color:#EF798A;
+    text-decoration:underline;
+}
+a:active { 
+    color:rgb(4, 160, 4);
+} 
+body{
+    background-color:#f0f8ffad; 
+}
+ 
+ul {
+    color:#e20c77;
+    font-family: 'Roboto', sans-serif;
+}
+.dropdown{
+    text-decoration:none;
+    font-size:medium;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color:#551A8b;
+}
+
+.recimage { 
+	border-radius: 20px 20px 0px 0px;
+    width: 30%;
+    Height: 30%;
+    border:1px solid #c5d6d8;
+    padding: 3px 8px;
+    margin-bottom: 15px;
+}
+
+.backgroundimage{
+    background-color: aquamarine;
+    background-image: url('img/pink-arrows.png');
+    background-repeat:repeat;
+}
+
+#leafbackground {
+    border: 2.5px solid aquamarine;
+    background: #94B0DA url('img/leaf.png') repeat-x left;
+    color:#505A5B;
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+    padding:0%;
+}
+
+#parabackground {
+    background-color:rgb(202, 230, 255);
+}
+
+div {
+    border: 3px solid #EF798A;
+    padding: 5px;
+    width: 25cm;
+}
+
+table {
+    font-family: 'Roboto', sans-serif; 
+    border: 1px solid #c5d6d8;
+    padding: 8px;
+    text-align: center
+}
+
+td {
+    font-family: 'Roboto', sans-serif; 
+    border: 1px solid #e20c77;
+    padding: 8px;
+    text-align: center
+}
+
+th {
+    text-decoration: underline;
+    font-family: 'Roboto', sans-serif; 
+    border: 1px solid #e20c77;
+    padding: 8px;
+    text-align: center
+}
+
+ol{
+    font-family: 'Roboto', sans-serif;
+}
+
+div #parabackground {
+    background-color:rgb(202, 230, 255);
+}
+
+p > sup {
+    color:#ff259d;
+    font-weight: 300;
+    text-decoration: dotted;
+}
+
+.backgroundimage22 {
+        background-color: aquamarine;
+        background-image: url('img/pink-arrows.png');
+        background-repeat:repeat;
+}
+
+img {
+    position:fixed;
+    bottom:0px;
+    right:0px;
+}
+
+.hello {
+    border:10px solid #EF798A;
+    background-image: url('img/pink-arrows.png');
+    background-repeat: repeat;
+    padding:20px;
+    position:relative;
+    left: 10px;
+}
+
+.hello p {
+    border: 0.5px solid #e4566b;
+    background-color: antiquewhite;
+}
+
+/* .hello p strong { 
+    border: 0.5px solid #e4566b;
+    text-decoration: underline;
+}' 
+*/
+
