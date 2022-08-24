@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" type ="text/css" href= "styles.css">
+        <!-- under the stylesheet link, link the font style sheet -->
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Righteous&family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <title> Game News</title>
+
+        <meta name = "viewpoint" content="width=device-width", initial-scale="1">
+
+    </head>
+    <body>
+        <header>
+            <h1> Game News</h1>
+        </header>
+
+        <section id="main">
+            <section id="menubar">
+                <nav>
+                    <ul>
+                        <li><a href="index.html"> Home </a><br></li>
+                        <li><a href="MedalTally.html">Medal Tally</a> <br></li>
+                        <li><a href="Athletes.html">Athletes</a><br></li>
+                        <li><a href="Schedule.html"> Schedule</a><br></li>
+                    </ul>
+                </nav>
+            </section>
+            <section class="content">
+                <h2> Complete our Form!</h2>
+                <div class="formsection">
+                    <form action="/formsub.php" method="POST">
+                        <div id="inform">
+                            <div id="personal_info">
+                                <label for="name">Name: </label>
+                                <input type="text" name="name" placeholder="First and Last Name" required>
+                                <label for="DOB">Date of Birth: </label>
+                                <input type="date" name="DOB" palceholder="DD/MM/YYYY">
+                                <div>
+                                    <label for="gender">Gender: </label>
+                                    <input type="radio" name="gender" id="female" value="male">
+                                    <label for="male">Male</label>
+                                    <input type="radio" name="gender" id="female" value="male">
+                                    <label for="female">Female</label>
+                                    <input type="radio" name="gender" id="other" value="male">
+                                    <label for="other">Other</label>
+                                </div>
+                                <label for="email">Electronic mail address: </label>
+                                <input type="email" name="email" required>
+                                <label for="password">Password: </label>
+                                <input type="password" name="password" required>
+                                <input type="checkbox" name="rememberP">
+                                <label for="rememberP">Remember my password</label>
+                            </div>
+
+                            <div id="form_questions">
+                                <select name="favourite_event">
+                                    <option value=""> Select favourite event</option>
+                                    <option value="Athletics"> Athletics</option>
+                                    <option value="Aquatics"> Aquatics</option>
+                                    <option value="Basketball"> Basketball</option>
+                                    <option value="Beach_Volleyball"> Beach Volleyball</option>
+                                    <option value="Boxing_and_arts"> Boxing and martial arts</option>
+                                    <option value="Cycling"> Cycling </option>
+                                    <option value="Gymnastics"> Gymnastics</option>
+                                    <option value="Hockey"> Hockey</option>
+                                    <option value="Lawn_Bowls"> Lawn bowls</option>
+                                    <option value="Swimming"> Swimming</option>
+                                    <option value="Triathlon"> Triathlon</option>
+                                    <option value="WeightLifting"> Weightlifting</option>
+                                </select>
+                                <label for="favourite_moment">What is your favourite Olympic or commonweath games moment?</label>
+                                <textarea id="favourite_moment">My favourite moment is...</textarea>
+                            </div>
+                            <div>
+                                <input type="submit" value="Submit">
+                            </div>
+                        </div>
+                 </form>
+
+                    
+                </div>
+            </section>
+        </section>
+        <a href="mailto:MaussieComGames@gmail.com"><img src="img/mail-giph.gif" alt="email us" target="blank"></a>  
+        <section>
+            <footer>
+                <nav>
+                        <li><a href="https://www.birmingham2022.com/" target="_blank">Offical website  - </a> <br></li>
+                        <li><a href="https://twitter.com/birminghamcg22?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"> Twitter  - </a><br></li>
+                        <li><a href=" "> Lglew corp.</a></li>
+  
+                </nav>
+            </section>
+            </footer>
+        </section>
+        <script src="Index.html"> </script>
+        <script src="Medals.html"> </script>
+        <script src="Athletes.html"> </script>
+        <script src="Schedule.html"></script>   
+        <p>  
+
+        </p>
+
+    </body>
+
+</html>
