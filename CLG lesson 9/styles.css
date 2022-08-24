@@ -173,6 +173,18 @@ input[type=password] {
     box-sizing: border-box;
 }
 
+input[type=radio]{
+    width: 25px;
+    height: 20px;
+}
+input[type=radio]:checked:after {
+    width: 25px;
+    height: 20px;
+    color:#e20c77;
+}
+
+
+
 textarea {
     width: 100%;
     height: 150px;
